@@ -7,6 +7,6 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "incremental": true,
+    "incremental": true
   }
 }

@@ -3,4 +3,5 @@ export interface Animal {
   xp: number;
   resources: number;
   hp: number;
-} 
+  minLevel?: number;
+}

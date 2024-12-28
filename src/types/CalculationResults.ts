@@ -4,4 +4,5 @@ export interface CalculationResults {
   remainingHp: number;
   canSurvive: boolean;
   regenerationTime: number;
-} 
+  damagePerHit: string;
+}
