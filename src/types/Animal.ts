@@ -1,7 +1,17 @@
 export interface Animal {
   name: string;
   xp: number;
-  resources: number;
   hp: number;
-  minLevel?: number;
+  attack: number;
+  defenseInf: number;
+  defenseCav: number;
+  upkeep: number;
+  speed: number;
+  icon: string;
+  resources: {
+    wood: number;
+    clay: number;
+    iron: number;
+    crop: number;
+  };
 }

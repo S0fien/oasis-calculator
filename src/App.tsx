@@ -1,10 +1,15 @@
 import "./App.css";
 import OasisCalculator from "./components/OasisCalculator";
+import { ThemeProvider } from "./components/ThemeProvider";
+import { ThemeToggle } from "./components/ThemeToggle";
 
 function App() {
   return (
     <div>
-      <OasisCalculator />
+      <ThemeProvider>
+        <ThemeToggle />
+        <OasisCalculator />
+      </ThemeProvider>
     </div>
   );
 }
