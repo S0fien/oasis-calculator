@@ -4,9 +4,9 @@ import OasisCalculator from './components/OasisCalculator'
 function App() {
 
   return (
-    <>
+    <div>
       <OasisCalculator />
-    </>
+    </div>
   )
 }
 

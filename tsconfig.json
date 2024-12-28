@@ -1,12 +1,12 @@
 {
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"],
+  "extends": "@tsconfig/vite-react/tsconfig.json",
   "compilerOptions": {
-    "lib": ["ESNext", "DOM"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     },
-    "jsx": "react-jsx"
+    "incremental": true,
   }
 }
